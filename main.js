@@ -1,6 +1,6 @@
 let count = 0;
 let counterVal = document.getElementById('counter-val');
-
+let entryVal = document.getElementById("save-el")
 function increment() {
   count++;
   counterVal.innerText = count;
@@ -12,5 +12,7 @@ function decrement() {
 }
 
 function save() {
-  console.log(counterVal.innerText)
+  let entry1 = count + " - ";
+  entryVal.innerText = "Previous Entries: " + entry1;
+  console.log(counterVal.innerText);
 }

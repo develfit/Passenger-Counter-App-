@@ -42,7 +42,8 @@ body {
   align-items: center;
 }
 
-.container2 {
+.container2,
+.container3{
   display: flex;
   justify-content: center;
   align-items: center;
