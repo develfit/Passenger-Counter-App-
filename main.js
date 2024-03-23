@@ -12,7 +12,7 @@ function decrement() {
 }
 
 function save() {
-  let entry1 = count + " - ";
-  entryVal.innerText = "Previous Entries: " + entry1;
+  let entry = count + " - ";
+  entryVal.innerText += entry
   console.log(counterVal.innerText);
 }
