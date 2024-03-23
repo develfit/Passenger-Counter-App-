@@ -3,16 +3,18 @@ let counterVal = document.getElementById('counter-val');
 let entryVal = document.getElementById("save-el")
 function increment() {
   count++;
-  counterVal.innerText = count;
+  counterVal.textContent = count;
 }
 
 function decrement() {
   count--;
-  counterVal.innerText = count;
+  counterVal.textContent = count;
 }
 
 function save() {
   let entry = count + " - ";
-  entryVal.innerText += entry
-  console.log(counterVal.innerText);
+  entryVal.textContent += entry
+  count = 0
+  counterVal.textContent = count
+  
 }
