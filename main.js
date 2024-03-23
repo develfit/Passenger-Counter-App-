@@ -10,3 +10,7 @@ function decrement() {
   count--;
   counterVal.innerText = count;
 }
+
+function save() {
+  console.log(counterVal.innerText)
+}
