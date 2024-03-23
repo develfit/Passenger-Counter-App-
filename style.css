@@ -42,6 +42,13 @@ body {
   align-items: center;
 }
 
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
 .btn {
   background-color: #2a9df4;
   color: white;
